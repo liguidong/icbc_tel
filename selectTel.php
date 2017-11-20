@@ -5,7 +5,7 @@ function db()
     $db_host = 'localhost';
     $db_name = 'icbc';
     $db_user = 'root';
-    $db_pwd = '123';
+    $db_pwd = '1234';
     $mysqli = new mysqli($db_host, $db_user, $db_pwd, $db_name);
     return $mysqli;
 }
